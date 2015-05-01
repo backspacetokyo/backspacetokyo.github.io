@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>backspacetokyo</title>
+<link rel="stylesheet" href="en.css" type="text/css" charset="utf-8">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<h1>backspacetokyo</h1>
+
+
+<ul class="our-men">
+	<li><a href="http://www.satoruhiga.com/">Satoru Higa</a></li>
+	<li><a href="http://nuafk.jp/">Motoi Shimizu</a></li>
+	<li><a href="http://2bit.jp/">2bit Ishii</a></li>
+</ul>
+
+<p class="drop-us-a-line">
+	Drop us a line:<br>
+	<em>enter@backspace.tokyo</em>
+</p>
+
+<p class="our-place">
+	Shatore Hiroo 2F<br>
+	4-11-10 Higashi Shibuya-ku<br>
+	Tokyo, 150-0011<br>
+	Japan<br>
+	<a href="https://goo.gl/maps/vcZoi">GoogleMaps</a>
+</p>
+
+<script>
+	(function(){
+		var test_pattern = location.search.substr(1);
+		console.log(test_pattern)
+		if (test_pattern !== "") {
+			document.getElementsByTagName("html")[0].id = test_pattern;
+		}
+	})();
+</script>
+</body>
+</html>

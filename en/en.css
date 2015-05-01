@@ -1,0 +1,151 @@
+
+@font-face
+{
+	font-family:'ApercuBold';
+	src:url('apercubold.ttf') format('truetype');
+}
+html
+{
+	background:url(https://33.media.tumblr.com/220589395e354585bc6e76f7a76c7818/tumblr_nhlb1qw0EQ1r2ax46o7_400.gif) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+html#subtle
+{
+	background-image:url(https://31.media.tumblr.com/9951ca2e7e884a48ca5b5269f5514cd6/tumblr_nhw337UpEx1tzv1dpo1_500.gif);
+}
+body
+{
+	font-family:'ApercuBold';
+	color:#fff;
+	text-align:center;
+}
+::selection
+{
+	background:#f00;
+	color:#fff;
+}
+body
+{
+    animation-duration: 5.0s;
+    animation-name: fade-in;
+/*    -moz-animation-duration: 3.5s;
+    -moz-animation-name: fade-in;
+    -webkit-animation-duration: 3.5s;
+    -webkit-animation-name: fade-in;*/
+}
+a 
+{
+	transition: background-color 0.18s linear;
+/*	transition: color 0.5s linear;*/
+}
+a:link,
+a:visited {
+	color:#fff;
+	background-color:transparent;
+/*	text-decoration:underline;*/
+}
+a:hover,
+a:active {
+	color:#fff;
+	background-color:#f00;
+/*	text-decoration:none;*/
+}
+
+
+/* -- */
+
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	max-width:1300px;
+	margin:0 auto;
+	padding-top:40px;
+	font-size:400%;
+}
+h1
+{
+	font-weight:bold;
+	font-size:270%;
+}
+ul.our-men li
+{
+	text-decoration:none;
+	display:inline-block;
+	margin:0 10px;
+}
+p.our-place
+{
+	font-size:70%;
+}
+p.our-place a
+{
+	font-size:70%;
+}
+h1,
+ul.our-men,
+p.drop-us-a-line,
+p.our-place
+{
+	margin-bottom:40px;
+}
+
+/* -- */
+
+@keyframes fade-in {
+      0% {
+        display: none;
+        opacity: 0;
+      }
+
+      1% {
+        display: block;
+        opacity: 0;
+      }
+
+      100% {
+        display: block;
+        opacity: 1;
+      }
+    }
+
+/*    @-moz-keyframes fade-in {
+      0% {
+        display: none;
+        opacity: 0;
+      }
+
+      1% {
+        display: block;
+        opacity: 0;
+      }
+
+      100% {
+        display: block;
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes fade-in {
+      0% {
+        display: none;
+        opacity: 0;
+      }
+
+      1% {
+        display: block;
+        opacity: 0;
+      }
+
+      100% {
+        display: block;
+        opacity: 1;
+      }
+    }*/
+}
