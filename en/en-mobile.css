@@ -1,10 +1,28 @@
 @charset "utf-8";
 
-@media only screen and 
+@media only screen and
 (max-width : 480px) {
-	
-	*{
-		display:none;
+
+	body
+	{
+		padding-top:50px;
+		font-size:200%;
+	}
+	h1
+	{
+		font-size:200%;
+		padding-bottom:20px; /* bicho */
 	}
 	
+	h1,
+	ul.our-men,
+	p.drop-us-a-line,
+	p.our-place
+	{
+		margin-bottom:20px;
+	}
+	h1 span
+	{
+		display:block;
+	}
 }

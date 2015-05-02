@@ -8,8 +8,9 @@
 <![endif]-->
 <meta name="keywords" content="backspacetokyo, backspace, satoruhiga, motoishmz, 2bit">
 <meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="en.css" type="text/css" charset="utf-8">
-<link rel="stylesheet" href="en-mobile.css" type="text/css" charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="en.css" type="text/css">
+<link rel="stylesheet" href="en-mobile.css" type="text/css">
 <meta property="og:title" content="backspacetokyo ⌫">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="backspacetokyo">
@@ -19,7 +20,7 @@
 <meta property="og:site_name" content="backspacetokyo ⌫">
 </head>
 <body>
-<h1>backspacetokyo</h1>
+<h1><span>backspace</span>tokyo</h1>
 
 <ul class="our-men"><!--
 	--><li><a href="http://www.satoruhiga.com/">Satoru Higa</a></li><!--
@@ -28,8 +29,8 @@
 --></ul>
 
 <p class="drop-us-a-line">
-	Drop us a line:<br>
-	<em>enter@backspace.tokyo</em>
+	Drop us a line:<br><!--
+	--><em>enter@backspace.tokyo</em>
 </p>
 
 <p class="our-place">
@@ -41,7 +42,11 @@
 </p>
 
 <script>
-	(function(){
+	(function(){;
+
+		document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
+		// document.body.addEventListener('touchstart', function(e){ e.preventDefault(); })
+		
 		var test_pattern = location.search.substr(1);
 		if (test_pattern !== "") {
 			document.getElementsByTagName("html")[0].id = test_pattern;
