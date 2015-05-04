@@ -25,11 +25,45 @@ body
 		opacity: 1;
 	}
 }
+@-moz-keyframes fade-in {
+	0% {
+		display: none;
+		opacity: 0;
+	}
+
+	1% {
+		display: block;
+		opacity: 0;
+	}
+
+	100% {
+		display: block;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fade-in {
+	0% {
+		display: none;
+		opacity: 0;
+	}
+
+	1% {
+		display: block;
+		opacity: 0;
+	}
+
+	100% {
+		display: block;
+		opacity: 1;
+	}
+}
 *
 {
 	margin:0;
 	padding:0;
 }
+
+
 
 /*
 	font, cover
@@ -42,7 +76,7 @@ html
 	-o-background-size: cover;
 	background-size: cover;
 }
-html#subtle { background-image:url(cover-subtle.gif); } 
+html#more { background-image:url(cover-more.gif); } 
 
 @font-face
 {
@@ -82,44 +116,6 @@ a:active {
 	background-color:#f00;
 }
 
-
-/*
-	animation
-*/
-
-@-moz-keyframes fade-in {
-	0% {
-		display: none;
-		opacity: 0;
-	}
-
-	1% {
-		display: block;
-		opacity: 0;
-	}
-
-	100% {
-		display: block;
-		opacity: 1;
-	}
-}
-
-@-webkit-keyframes fade-in {
-	0% {
-		display: none;
-		opacity: 0;
-	}
-
-	1% {
-		display: block;
-		opacity: 0;
-	}
-
-	100% {
-		display: block;
-		opacity: 1;
-	}
-}
 
 /*
 	structure

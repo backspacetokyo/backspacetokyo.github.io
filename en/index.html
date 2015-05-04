@@ -39,16 +39,31 @@
 	Tokyo, 150-0011<br>
 	Japan<br>
 	<a href="https://goo.gl/dJa6qN">GoogleMaps</a>
+	<span id="alt-link"></span>
 </p>
 
 <script>
 	(function(){
 		document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
-		
+
 		var test_pattern = location.search.substr(1);
-		if (test_pattern !== "") {
-			document.getElementsByTagName("html")[0].id = test_pattern;
+		document.getElementsByTagName("html")[0].id = test_pattern;
+
+		var elem_to_next_page = document.createElement("a");
+		var alt_link = document.getElementById("alt-link");
+		var alt_href = "./";
+		var alt_inner_html = "";
+		
+		if (test_pattern === "more") {
+			alt_inner_html = "less?";
 		}
+		else {
+			alt_href += "?more"
+			alt_inner_html = "more?";
+		}
+		elem_to_next_page.href = alt_href;
+		elem_to_next_page.innerHTML = alt_inner_html;
+		alt_link.appendChild(elem_to_next_page);
 	})();
 </script>
 <script>
