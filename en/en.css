@@ -152,7 +152,6 @@ h1
 {
 	font-weight:normal;
 	font-size:270%;
-	font-size:11.25vw;
 	line-height:0.8;
 }
 
@@ -180,10 +179,14 @@ p.our-place a
 }
 p.drop-us-a-line em
 {
-	font-size:7vw;
+	font-size:140%;
 	background:rgba(255, 0, 0, 0.8);
 }
 p.drop-us-a-line em:hover
 {
 	background:rgba(255, 255, 0, 0.8);
+}
+#alt-link
+{
+	display:block;
 }

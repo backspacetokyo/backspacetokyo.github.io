@@ -1,5 +1,19 @@
 @charset "utf-8";
 
+
+@media only screen and
+(max-width : 1300px) {
+	
+	h1
+	{
+		font-size:11.25vw;
+	}
+	p.drop-us-a-line em	
+	{
+		font-size:7vw;
+	}
+}
+
 @media only screen and
 (max-width : 480px) {
 
@@ -25,4 +39,5 @@
 	{
 		display:block;
 	}
+	
 }
