@@ -4,12 +4,15 @@
 
 body
 {
-	width:1000px;
+	width:1050px;
 	margin:0 auto;
-	padding:203px 30px 50px;
-	background:url(img/bg-header.png) center 48px no-repeat;
+	padding-bottom:50px;
 }
-
+#guests,
+footer
+{
+	padding:0 25px;
+}
 /*!
 	font      
 */
@@ -51,6 +54,8 @@ footer
 */
 header
 {
+	background:url(img/bg-header.png) center 48px no-repeat;
+	padding:203px 0 50px;
 	text-align:center;
 }
 header h1
@@ -58,6 +63,7 @@ header h1
 	position:relative;
 	margin-bottom:40px;
 	font-size:120px;
+	-webkit-font-smoothing: antialiased;
 }
 header h1 strong
 {
@@ -268,9 +274,13 @@ header .al
 
 footer
 {
-	padding:40px 100px;
+	padding:40px 0;
 	font-weight:900;
 	text-align:right;
+}
+footer p
+{
+	margin-right:30px;
 }
 footer a
 {

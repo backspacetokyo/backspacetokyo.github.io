@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+@media only screen and (max-device-width: 480px)
+{
+	header h1,
+	header strong
+	{
+		font-size:140px;
+	}
+	header h1,
+	header strong,
+	#guests h2,
+	#guests h3
+	{
+		font-weight:normal;
+	}
+
+}
+
