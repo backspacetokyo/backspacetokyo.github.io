@@ -23,7 +23,7 @@ body
 }
 header h1,
 header h1 strong,
-header a,
+header a.gmap,
 header .date,
 #guests h2,
 #guests h3
@@ -73,7 +73,7 @@ header h1 strong
 	font-size:120px;
 }
 header .date,
-header a
+header a.gmap
 {
 	font-size:36px;
 }
@@ -90,7 +90,7 @@ header .al
 	font-weight:600;
 }
 
-header a
+header a.gmap
 {
 	display:inline-block;
 	background-color:red;
@@ -100,7 +100,7 @@ header a
 	margin-bottom:20px;
 	transition: color 0.1s linear;
 }
-header a:hover
+header a.gmap:hover
 {
 	color:white;
 }
@@ -143,6 +143,10 @@ header .al
 #introduction-to-our-first-backspace-to-enterkey em
 {
 	font-size:14px;
+}
+#introduction-to-our-first-backspace-to-enterkey a
+{
+	color:black;
 }
 
 
