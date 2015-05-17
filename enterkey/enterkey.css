@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+*
+{
+	margin:0;
+	padding:0;
+}
+
+
+
+/*
+	font, cover
+*/
+
+@font-face
+{
+	font-family:'ApercuBold';
+	src:url('../fonts/apercubold.ttf') format('truetype');
+}
+body
+{
+	font-family:Helvetica, 'ApercuBold';
+	color:black;
+	text-align:center;
+	background:#fff;
+}
+::selection
+{
+	background:#000;
+	color:#fff;
+}
+
+
+/*
+	text decoration, color
+*/
+a
+{
+	text-decoration:none;
+	transition: background-color 0.14s linear;
+	transition: color 0.14s linear;
+}
+a:link,
+a:visited {
+	color:black;
+	background-color:transparent;
+}
+a:hover,
+a:active {
+	color:#fff;
+	background-color:black;
+}
+
+
+
+body
+{
+	padding:50px 100px;
+	text-align:center;
+/*	width:980px;
+	margin:0 auto;
+*/}
+
+h1
+{
+	margin-bottom:30px;
+}
+p
+{
+	margin-bottom:60px;
+}
+
+
+h1
+{
+	padding:30px 0 50px;
+	color:black;
+	font-style:italic;
+	font-weight:normal;
+	font-size:1000%;
+	line-height:0.75;
+	letter-spacing:-11px;
+}
+h1 span
+{
+	display:block;
+}
+.slogan
+{
+	line-height:1.9;
+}
+.guests li
+{
+	list-style:none;
+	margin-bottom:40px;
+}
+.guests li .tags
+{
+	display:inline-block;
+	background:black;
+	margin-bottom:10px;
+	padding:5px 10px;
+	color:white;
+	border-radius:5px;
+}
+.guests li a
+{
+	font-family:'ApercuBold';
+	font-size:400%;
+}
+.guests li a
+{
+	display:inline-block;
+}
+.guests li .aka
+{
+	font-size:60%;
+}
+.guests li .avatars
+{
+	display:block;
+}
+.guests li .avatars img
+{
+	height:150px;
+}
+
+
+
+hr
+{
+	border:none;
+	border-top:1px solid lightblue;
+	margin-bottom:50px;
+}
+footer a
+{
+	text-decoration:underline;
+}

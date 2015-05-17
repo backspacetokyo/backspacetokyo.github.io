@@ -76,12 +76,12 @@ html
 	-o-background-size: cover;
 	background-size: cover;
 }
-html#more { background-image:url(cover-more.gif); } 
+html#more { background-image:url(cover-more.gif); }
 
 @font-face
 {
 	font-family:'ApercuBold';
-	src:url('apercubold.ttf') format('truetype');
+	src:url('../fonts/apercubold.ttf') format('truetype');
 }
 body
 {
