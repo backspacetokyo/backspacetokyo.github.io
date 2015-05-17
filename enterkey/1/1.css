@@ -128,17 +128,20 @@ header .al
 {
 	background-image:url(img/bg-paragraph.png);
 	background-repeat:no-repeat;
+	background-position-x: 40px;
 }
 #introduction-to-our-first-backspace-to-enterkey
 {
 	padding-top:55px;
 	background-position:top left; 
+	background-position-x: 40px;
 }
 #introduction-to-our-first-backspace-to-enterkey p
 {
 	margin-bottom:55px;
 	padding:0 70px 55px;
 	background-position:bottom left;
+	background-position-x: 40px;
 }
 #introduction-to-our-first-backspace-to-enterkey em
 {
