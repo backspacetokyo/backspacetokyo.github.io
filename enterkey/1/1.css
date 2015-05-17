@@ -280,13 +280,13 @@ header .al
 
 footer
 {
-	padding:40px 0;
+	padding:64px 0;
 	font-weight:900;
-	text-align:right;
+	text-align:center;
 }
 footer p
 {
-	margin-right:30px;
+	margin-right:23px;
 }
 footer a
 {
