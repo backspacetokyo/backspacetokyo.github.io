@@ -39,6 +39,7 @@ header strong,
 {
 	font-family:'Slate W01 Bk';
 }
+#guests div.from_backspace,
 footer
 {
 	font-family:'Helvetica';
@@ -91,6 +92,11 @@ header a
 	text-decoration:none;
 	padding:6px 30px 1px;
 	margin-bottom:20px;
+	transition: color 0.1s linear;
+}
+header a:hover
+{
+	color:white;
 }
 header .date,
 header .venue,
@@ -170,7 +176,7 @@ header .al
 	float:right;
 }
 
-#guests .avatar
+#guests div.avatar
 {
 	position:relative;
 	background:black;
@@ -179,7 +185,7 @@ header .al
 	height:270px;
 	overflow:hidden;
 }
-#guests #jedahan .avatar img
+#guests #jedahan div.avatar img
 {
 	position:relative;
 	top:-100px;
@@ -217,23 +223,45 @@ header .al
 {
 	margin-bottom:35px;
 }
-#guests div.c
+#guests div.from_backspace
 {
+	font-weight:600;
+	font-size:14px;
+	line-height:1.4;
 	padding-top:45px;
 	background-image:url(img/bg-paragraph.png);
 	background-repeat:no-repeat;
 }
-#guests #jedahan div.c
+#guests #jedahan div.from_backspace
 {
 	background-position:55px 0;
 }
-#guests #jordi div.c
+#guests #jordi div.from_backspace
 {
 	background-position:290px 0;
 }
-#guests #jordi div.c p
+
+#guests div.from_backspace img
 {
-	
+	border-radius:5px;
+}
+#guests div.from_backspace p
+{
+	position:relative;
+	background:#f6f6f6;
+	border-radius:5px;
+	padding:10px;
+	margin-left:60px;
+}
+#guests div.from_backspace p .avatar
+{
+	position:absolute;
+	top:1px;
+	left:-60px;
+}
+#guests div.from_backspace p a
+{
+	color:black;
 }
 
 
