@@ -209,11 +209,12 @@ header .al
 {
 	margin-bottom:5px;
 	font-size:36px;
+	letter-spacing:0.8px;
 }
 #guests h3 span
 {
 	font-size:18px;
-	letter-spacing:2px;
+	letter-spacing:1px;
 }
 #guests .meta 
 {
@@ -262,8 +263,9 @@ header .al
 	position:relative;
 	background:#f6f6f6;
 	border-radius:5px;
-	padding:10px;
+	padding:20px;
 	margin-left:60px;
+	line-height:1.6;
 }
 #guests div.from_backspace p .avatar
 {
