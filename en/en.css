@@ -158,7 +158,9 @@ h1
 /* our-men */
 ul.our-men
 {
-	margin-left:0;
+	width:75%;
+	margin-right:auto;
+	margin-left:auto;
 	padding-left:0;
 }
 ul.our-men li
