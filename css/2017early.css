@@ -94,3 +94,29 @@ border-radius: 5px;
 .archive img {
   width:100%;
 }
+
+#video {
+  position:relative;
+}
+#video h1 {
+  position:relative;
+  z-index: 1000;
+}
+#videobcg {
+   /*
+   width: auto;
+   height: auto;
+   overflow: hidden;*/
+    /*-webkit-filter: blur(25px);
+  -moz-filter: blur(125px);
+  -o-filter: blur(125px);
+  -ms-filter: blur(125px);*/
+  top: 0px;
+  left: 0px;
+z-index: 990;
+position: absolute;
+  min-width: 100%;
+  height: 350px;
+    width: 100%;
+  filter: blur(145px);
+}

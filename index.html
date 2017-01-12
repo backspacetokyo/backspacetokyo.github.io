@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,8 +7,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <meta name="keywords" content="backspacetokyo,backspace,satoruhiga,motoishmz,2bit">
-  <meta name="description" content="backspacetokyo website">
+  <meta name="keywords" content="backspacetokyo, backspace, Satoru Higa, Motoi Shimizu, 2bit, Takuto Usami">
   <meta name="robots" content="index,follow">
   <meta name="author" content="backspacetokyo">
   <title>backspacetokyo</title>
@@ -70,15 +69,22 @@
       </div>
     </div>
 
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center" id="video">
       <div class="container">
-        <h1 class="jumbotron-heading"><img src="./images/logo@2x.png"></h1>
+        <h1 class="jumbotron-heading"><img src="./images/logo@2x.png" alt="backspacetokyo"></h1>
         <!-- p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
         <p>
           <a href="#" class="btn btn-primary">Main call to action</a>
           <a href="#" class="btn btn-secondary">Secondary action</a>
         </p>
-      </div> -->
+      -->
+      </div>
+      <!-- <div id="videobcg"></div> -->
+      <!-- video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+      <source src="./images/entrance.mp4" type="video/mp4">
+      Sorry, your browser does not support HTML5 video.
+    </video -->
+
     </section>
 
 
@@ -105,8 +111,7 @@
 
         <!--  -->
         <h2 class="display-4">Backspace to Enterkey</h2>
-        <p class="lead">backspacetokyoに訪れたアーティスト/デベロッパー/ハッカーを囲んで話をしたり、交流する事を目的にしたイベント。 既にonlineに上がっているプロジェクトの単なる紹介プレゼンテーションでは無く、彼らの活動や文化・マインドを分けてもらったり、こちらの出来事を伝えたり出来たら良いな、という趣旨で開催をします。短い期間東京で過ごす彼らの新しい友達作りの機会としても機能する事を願っています。<br>
-このイベントは、ゲストが来日したタイミングで適宜開催されます。</p>
+        <p class="lead">backspacetokyoに訪れたアーティスト・デベロッパー・ハッカーを囲んで話をしたり、交流する事を目的にしたイベント。既にonlineに上がっているプロジェクトの単なる紹介プレゼンテーションでは無く、彼らの活動や文化・マインドを分けてもらったり、こちらの出来事を伝えたり出来たら良いな、という趣旨で開催をします。短い期間東京で過ごす彼らの新しい友達作りの機会としても機能する事を願っています。<br />このイベントは、ゲストが来日したタイミングで適宜開催されます。</p>
         <div class="row">
           <div class="col-md-4 archive">
             <a href="./enterkey/2/"><img src="./images/enterkey-2.jpg" alt="Backpsace to Enterkey #2 - Roy Macdonald"></a>
@@ -146,8 +151,8 @@
           <li><a href="http://2bit.jp"><img src="./images/c-2bbb.png" alt="2bit Ishii"></a></li>
           <li><a href="https://vimeo.com/124225368"><img src="./images/c-usm.png" alt="Takuto Usami"></a></li>
         </ul>
-        </div>
         <!--  -->
+
       </div>
     </div>
 
@@ -166,5 +171,9 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   -->
+<script>
+  // var h = $("#video").height();
+  // $("#videobcg").css("height",  $("#video").height());
+</script>
   </body>
 </html>
