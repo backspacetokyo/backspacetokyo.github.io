@@ -71,6 +71,7 @@ ul.avatars li {
   display:inline-block;
   line-style:none;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 ul.avatars li img {
   width:100px;
@@ -81,6 +82,11 @@ ul.avatars li img {
   margin-bottom:50px;
 }
 
+
+small.date {
+  display:inline-block;
+  margin-bottom: 10px;
+}
 
 .archive {
   background-color: #fff;
@@ -113,10 +119,16 @@ border-radius: 5px;
   -ms-filter: blur(125px);*/
   top: 0px;
   left: 0px;
-z-index: 990;
-position: absolute;
+  z-index: 990;
+  position: absolute;
   min-width: 100%;
   height: 350px;
-    width: 100%;
+  width: 100%;
   filter: blur(145px);
+}
+
+
+h2.event small {
+  display:block;
+  font-size:40% !important;
 }
