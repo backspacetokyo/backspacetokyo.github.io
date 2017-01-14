@@ -1,8 +1,12 @@
-.bg-inverse {
-background-color: #231f20 !important;
+@font-face {
+	font-family:'ApercuBold';
+	src:url('../fonts/apercubold.ttf') format('truetype');
 }
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+.bg-inverse {
+  background-color: #231f20 !important;
 }
 
 .navbar {
@@ -131,4 +135,22 @@ border-radius: 5px;
 h2.event small {
   display:block;
   font-size:40% !important;
+}
+
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  color:#231f20 !important;
+  font-family: ApercuBold;
+  font-style: italic;
+  letter-spacing: -2px;
+  /*font-size:120%;*/
+}
+.card-text {
+  color:#231f20 !important;
+  line-height: 1.5;
 }
