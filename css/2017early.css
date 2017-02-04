@@ -13,6 +13,13 @@ body {
   margin-bottom: 0;
 }
 
+#navbarHeader a.text-white:link,
+#navbarHeader a.text-white:hover,
+#navbarHeader a.text-white:focus,
+#navbarHeader a.text-white:active,
+#navbarHeader a.text-white:visited {
+	text-decoration: underline;
+}
 .jumbotron {
   padding-top: 6rem;
   padding-bottom: 6rem;
