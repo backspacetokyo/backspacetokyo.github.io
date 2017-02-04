@@ -13,11 +13,17 @@ body {
   margin-bottom: 0;
 }
 
-#navbarHeader a.text-white:link,
-#navbarHeader a.text-white:hover,
-#navbarHeader a.text-white:focus,
-#navbarHeader a.text-white:active,
-#navbarHeader a.text-white:visited {
+p.lang {
+	margin:0;
+	padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+a.text-white:link,
+a.text-white:hover,
+a.text-white:focus,
+a.text-white:active,
+a.text-white:visited {
 	text-decoration: underline;
 }
 .jumbotron {
@@ -133,9 +139,9 @@ border-radius: 5px;
   z-index: 990;
   position: absolute;
   min-width: 100%;
-  height: 350px;
+  height: 100%;
   width: 100%;
-  filter: blur(145px);
+  filter: blur(45px);
 }
 
 
@@ -156,6 +162,15 @@ body h6 {
   font-style: italic;
   letter-spacing: -2px;
   /*font-size:120%;*/
+}
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6 {
+	font-style: normal;
+  letter-spacing: 0;
 }
 .card-text {
   color:#231f20 !important;

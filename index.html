@@ -41,33 +41,16 @@
     <div class="collapse bg-inverse" id="navbarHeader">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-muted">映像制作、舞台演出テクニカルサポート、VRシステム制作、VJ、R&amp;D、モバイルアプリケーション開発、Web制作等、様々な場面でフットワーク軽く働く、それぞれ違ったバックグランドを持ったアーティスト・プログラマが在籍する少人数のプロダクションチーム。</p>
-            <p class="text-muted">コーディングカルチャーに根ざした表現を行なっている。</p>
-            <p><a href="./en" class="text-white">English</a></p>
-          </div>
-          <div class="col-sm-4 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled">
-                <li class="text-white" style="margin-bottom:10px;">
-                  150-0011<br>
-                  東京都 渋谷区 東 4-11-10 シャトレー広尾2F<br>
-                  (<a href="https://goo.gl/maps/6U8bZyBh9ft" class="text-white">GoogleMaps</a>)
-                  (<a href="http://aoiannex.com/assets/movies/backspace_entrance.mp4" class="text-white">入り方解説動画</a>)
-                </li>
-                <li class="text-white">Email:<br>enter@backspace.tokyo</li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
     <div class="navbar navbar-inverse bg-inverse">
       <div class="container d-flex justify-content-between">
         <a href="/" class="navbar-brand">backspacetokyo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button -->
+        <p class="text-muted lang"><a href="./en" class="text-white">English</a> / 日本語</p>
       </div>
     </div>
 
@@ -81,11 +64,13 @@
         </p>
       -->
       </div>
-      <!-- <div id="videobcg"></div> -->
-      <!-- video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+      <!--
+    <div id="videobcg"></div>
+      <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
       <source src="./images/entrance.mp4" type="video/mp4">
       Sorry, your browser does not support HTML5 video.
-    </video -->
+    </video>
+   -->
 
     </section>
 
@@ -158,12 +143,30 @@
       </div>
     </div>
 
-    <footer class="text-muted">
+    <footer class="bg-inverse">
       <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>&copy; 2017 backspacetokyo</p>
+        <div class="col-sm-7 py-4 float-left">
+          <h4 class="text-white">About backspacetokyo</h4>
+          <p class="text-muted">映像制作、舞台演出テクニカルサポート、VRシステム制作、VJ、R&amp;D、モバイルアプリケーション開発、Web制作等、様々な場面でフットワーク軽く働く、それぞれ違ったバックグランドを持ったアーティスト・プログラマが在籍する少人数のプロダクションチーム。</p>
+          <p class="text-muted">コーディングカルチャーに根ざした表現を行なっている。</p>
+        </div>
+
+        <div class="col-sm-5 py-4 float-left">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+              <li class="text-muted" style="margin-bottom:10px;">
+                150-0011<br>
+                東京都 渋谷区 東 4-11-10<br>シャトレー広尾2F<br>
+                (<a href="https://goo.gl/maps/6U8bZyBh9ft" class="text-white">GoogleMaps</a>)
+                (<a href="http://aoiannex.com/assets/movies/backspace_entrance.mp4" class="text-white">入り方解説動画</a>)
+              </li>
+              <li class="text-muted">Email:<br>enter@backspace.tokyo</li>
+          </ul>
+        </div>
+
+        <hr style="clear:both">
+
+        <p class="text-muted" style="padding-left:15px">&copy; 2017 backspacetokyo</p>
       </div>
     </footer>
 
@@ -173,9 +176,5 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   -->
-<script>
-  // var h = $("#video").height();
-  // $("#videobcg").css("height",  $("#video").height());
-</script>
   </body>
 </html>
